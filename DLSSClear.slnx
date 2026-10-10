@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="DLSSClear.vcxproj" Id="62804eb9-86d0-42d2-af3f-ef6926703b8a" />
+  <Project Path="native/DLSSClearNative.vcxproj" Id="27f6ef8e-2049-450f-a8fc-859a09d227d5"><Platform Project="x64" /></Project>
+  <Project Path="native/DLSSClearNativeTest.vcxproj" Id="584eb81e-170a-47d6-a249-1dff29a51824"><Platform Project="x64" /></Project>
+</Solution>

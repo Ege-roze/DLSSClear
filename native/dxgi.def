@@ -1,0 +1,23 @@
+LIBRARY dxgi
+EXPORTS
+    ApplyCompatResolutionQuirking=Forward_ApplyCompatResolutionQuirking @1
+    CompatString=Forward_CompatString @2
+    CompatValue=Forward_CompatValue @3
+    DXGIDumpJournal=Forward_DXGIDumpJournal @4
+    PIXBeginCapture=Forward_PIXBeginCapture @5
+    PIXEndCapture=Forward_PIXEndCapture @6
+    PIXGetCaptureState=Forward_PIXGetCaptureState @7
+    SetAppCompatStringPointer=Forward_SetAppCompatStringPointer @8
+    UpdateHMDEmulationStatus=Forward_UpdateHMDEmulationStatus @9
+    CreateDXGIFactory=NativeCreateFactory @10
+    CreateDXGIFactory1=NativeCreateFactory1 @11
+    CreateDXGIFactory2=NativeCreateFactory2 @12
+    DXGID3D10CreateDevice=Forward_DXGID3D10CreateDevice @13
+    DXGID3D10CreateLayeredDevice=Forward_DXGID3D10CreateLayeredDevice @14
+    DXGID3D10GetLayeredDeviceSize=Forward_DXGID3D10GetLayeredDeviceSize @15
+    DXGID3D10RegisterLayers=Forward_DXGID3D10RegisterLayers @16
+    DXGIDeclareAdapterRemovalSupport=Forward_DXGIDeclareAdapterRemovalSupport @17
+    DXGIDisableVBlankVirtualization=Forward_DXGIDisableVBlankVirtualization @18
+    DXGIGetDebugInterface1=Forward_DXGIGetDebugInterface1 @19
+    DXGIReportAdapterConfiguration=Forward_DXGIReportAdapterConfiguration @20
+    DLSSClearNativeVersion @21
